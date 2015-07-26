@@ -1,5 +1,5 @@
 
-'''R
+```R
 library(dplyr)
 
 #Load the data
@@ -12,7 +12,7 @@ xtest = read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
 ytest = read.csv("UCI HAR Dataset/test/y_test.txt", sep="", header=FALSE)
 subjectTest = read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE)
 testData <- data.frame(xtest, ytest, subjectTest)
-'''
+```
 
 #Step 1
 #Merges the training and the test sets to create one data set.
